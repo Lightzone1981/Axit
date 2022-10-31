@@ -1,0 +1,5 @@
+.footer {
+  flex-shrink: 0;
+  height: 164px;
+  background-color: #000;
+}

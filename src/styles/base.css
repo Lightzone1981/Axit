@@ -1,0 +1,36 @@
+body {
+  background-color: #fff;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.wrapper {
+  flex: 1;
+}
+
+.container {
+  margin: 0% auto;
+  padding: 0 15px;
+  max-width: 1170px;
+}
+
+h1 {
+  font: 36px var(--font-view1);
+}
+
+h2 {
+  font: 36px var(--font-view1);
+}
+
+h3 {
+  font: bold 30px var(--font-view2);
+}
+
+h4 {
+  font: bold 24px var(--font-view2);
+}
+
+h5 {
+  font: normal 18px var(--font-view1);
+}

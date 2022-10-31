@@ -1,0 +1,105 @@
+.main-header {
+  background-color: black;
+}
+
+.main-header__container {
+  max-width: 1225px;
+}
+
+.nav-container {
+  display: flex;
+  height: 75px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-header__logo {
+  width: 87px;
+  height: 31px;
+  display: block;
+  background: url("../icons/axit-logo.svg");
+  background-size: cover;
+}
+
+.main-header__burger {
+  display: none;
+  position: relative;
+  width: 24px;
+  height: 18px;
+  background: url("../icons/burger-icon.svg");
+  margin-right: 5%;
+}
+
+.main-header__burger:hover {
+  cursor: pointer;
+}
+
+.main-header-nav {
+  display: flex;
+  min-width: 46%;
+  height: 100%;
+  margin-right: 2%;
+}
+
+.main-header-nav__item {
+  flex-grow: 1;
+  color: #fff;
+  text-decoration: none;
+  font-family: var(--font-view2);
+  font-size: 14px;
+  text-align: center;
+  padding: 30px;
+}
+
+.main-header-nav__item:hover {
+  background-color: var(--main-orange);
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+}
+.main-header-nav__item:active {
+  background-color: var(--dark-orange);
+  text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+  .main-header-nav {
+    transform: translateX(-100%);
+    flex-direction: column;
+    gap: 0;
+    position: absolute;
+    top: 56px;
+    left: 0;
+    z-index: 5;
+    background-color: #000;
+    opacity: 0.85;
+    height: 100vh;
+    width: 100%;
+  }
+  .main-header-nav.active {
+    transform: translateX(0);
+  }
+  .main-header__burger.active {
+    background: url("../icons/cross-icon.svg") center no-repeat;
+    background-size: 100%;
+  }
+
+  .main-header-nav__item {
+    text-align: center;
+    padding: 8%;
+  }
+
+  .main-header__burger {
+    display: block;
+  }
+
+  .nav-container {
+    height: 56px;
+  }
+
+  .main-header__logo {
+    width: 65px;
+    height: 23px;
+    margin-left: 4%;
+  }
+}

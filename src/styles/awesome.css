@@ -1,0 +1,40 @@
+.awesome-section {
+  background-color: #fff;
+}
+
+.cards-awesome-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 62px;
+}
+
+.card-awesome {
+  flex-grow: 1;
+  max-width: 330px;
+  margin: 0 20px;
+  text-align: center;
+}
+
+.card-awesome__icon {
+  margin-top: 108px;
+}
+
+.card-awesome__title {
+  margin-top: 54px;
+}
+
+.card-awesome__description {
+  margin-top: 54px;
+}
+
+@media (max-width: 767px) {
+  .cards-awesome-container {
+    flex-wrap: wrap;
+  }
+  .card-awesome {
+    max-width: 100%;
+  }
+  .section-header__title {
+    margin-top: 62px;
+  }
+}

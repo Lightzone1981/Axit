@@ -1,0 +1,20 @@
+.section-header__title {
+  text-align: center;
+  margin-top: 112px;
+}
+
+.section-header__decoration-line {
+  background-color: var(--main-orange);
+  width: 170px;
+  height: 1px;
+  margin: 0% auto;
+  margin-top: 62px;
+}
+
+.section-header__subtitle {
+  color: #86878b;
+  text-align: center;
+  padding-top: 40px;
+  margin: 0 auto;
+  width: 60%;
+}
