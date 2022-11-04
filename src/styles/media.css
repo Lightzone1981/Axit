@@ -1,0 +1,113 @@
+@media (max-width: 1000px) {
+  /* styles for social-media section */
+
+  .social-media-icons * {
+    max-width: 6vw;
+  }
+}
+
+@media (max-width: 767px) {
+  /* styles for main-heder */
+
+  .main-header-nav {
+    transform: translateX(-100%);
+    flex-direction: column;
+    gap: 0;
+    position: absolute;
+    top: 56px;
+    left: 0;
+    z-index: 5;
+    background-color: #000;
+    opacity: 0.85;
+    height: 100vh;
+    width: 100%;
+  }
+
+  .main-header-nav.active {
+    transform: translateX(0);
+  }
+
+  .main-header__burger.active {
+    background: url("../icons/cross-icon.svg") center no-repeat;
+    background-size: 100%;
+  }
+
+  .main-header-nav__item {
+    text-align: center;
+    padding: 8%;
+  }
+
+  .main-header__burger {
+    display: block;
+  }
+
+  .nav-container {
+    height: 56px;
+  }
+
+  .main-header__logo {
+    width: 65px;
+    height: 23px;
+    margin-left: 4%;
+  }
+
+  /* styles for social-media section */
+
+  .container__social-media {
+    flex-direction: column;
+  }
+
+  .social-media-text-container {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .social-media-icons {
+    min-width: 100%;
+    justify-content: center;
+  }
+
+  .social-media-icons * {
+    max-width: 10vw;
+  }
+
+  /* styles for tabs section */
+
+  .tabs-frame__text-container {
+    max-width: 100%;
+  }
+
+  /* styles for awesome section */
+
+  .cards-awesome-container {
+    flex-wrap: wrap;
+  }
+
+  .card-awesome {
+    max-width: 100%;
+  }
+
+  .section-header__title {
+    margin-top: 62px;
+  }
+
+  /* styles for pricing section */
+
+  .pricing-card-container {
+    padding-bottom: 0;
+  }
+
+  .pricing-card-container {
+    flex-wrap: wrap;
+  }
+
+  .pricing-card {
+    width: 100%;
+    padding-bottom: 26px;
+  }
+
+  .pricing-card--up {
+    position: inherit;
+    box-shadow: none;
+  }
+}

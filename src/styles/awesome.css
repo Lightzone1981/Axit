@@ -26,15 +26,3 @@
 .card-awesome__description {
   margin-top: 54px;
 }
-
-@media (max-width: 767px) {
-  .cards-awesome-container {
-    flex-wrap: wrap;
-  }
-  .card-awesome {
-    max-width: 100%;
-  }
-  .section-header__title {
-    margin-top: 62px;
-  }
-}

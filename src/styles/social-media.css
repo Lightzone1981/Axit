@@ -1,0 +1,41 @@
+.social-media-section {
+  background-color: #f8efef;
+  min-height: 140px;
+  padding: 15px 0;
+}
+
+.container__social-media {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-media-text-container {
+  max-width: 40%;
+}
+
+.social-media-title {
+  margin-bottom: 30px;
+}
+
+.social-media-description {
+  color: #86878b;
+  font-size: 18px;
+}
+
+.social-media-icons {
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-media-icons * {
+  display: block;
+  max-width: 70px;
+  max-height: 70px;
+  margin-left: 2%;
+}
+
+.sm-img:hover {
+  filter: brightness(70%);
+}

@@ -52,6 +52,7 @@
 .tabs-frame__text-container {
   margin-left: 8%;
   padding-right: 8%;
+  max-width: 50%;
 }
 
 .tabs-frame__image {
@@ -86,16 +87,4 @@
 .tabs-frame__button:hover {
   cursor: pointer;
   background-color: var(--dark-orange);
-}
-
-@media (min-width: 400px) {
-  .tabs-frame__text-container {
-    max-width: 50%;
-  }
-}
-
-@media (min-width: 400px) and (max-width: 800px) {
-  .tabs-frame__text-container {
-    max-width: 100%;
-  }
 }

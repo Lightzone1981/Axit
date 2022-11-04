@@ -53,53 +53,8 @@
 
 .main-header-nav__item:hover {
   background-color: var(--main-orange);
-  text-transform: uppercase;
-  font-size: 13px;
-  font-weight: 700;
 }
 .main-header-nav__item:active {
   background-color: var(--dark-orange);
   text-transform: uppercase;
-}
-
-@media (max-width: 767px) {
-  .main-header-nav {
-    transform: translateX(-100%);
-    flex-direction: column;
-    gap: 0;
-    position: absolute;
-    top: 56px;
-    left: 0;
-    z-index: 5;
-    background-color: #000;
-    opacity: 0.85;
-    height: 100vh;
-    width: 100%;
-  }
-  .main-header-nav.active {
-    transform: translateX(0);
-  }
-  .main-header__burger.active {
-    background: url("../icons/cross-icon.svg") center no-repeat;
-    background-size: 100%;
-  }
-
-  .main-header-nav__item {
-    text-align: center;
-    padding: 8%;
-  }
-
-  .main-header__burger {
-    display: block;
-  }
-
-  .nav-container {
-    height: 56px;
-  }
-
-  .main-header__logo {
-    width: 65px;
-    height: 23px;
-    margin-left: 4%;
-  }
 }
