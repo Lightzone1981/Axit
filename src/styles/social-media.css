@@ -1,41 +1,43 @@
-.social-media-section {
+.social-media{
   background-color: #f8efef;
-  min-height: 140px;
-  padding: 15px 0;
+  min-height: 8.75rem;
+  padding: 0.94rem 0;
 }
 
-.container__social-media {
+.social-media__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.social-media-text-container {
-  max-width: 40%;
+.social-media__text-container {
+width: 40%;
 }
 
-.social-media-title {
-  margin-bottom: 30px;
+.social-media__title {
+  margin-bottom: 1.875rem;
 }
 
-.social-media-description {
+.social-media__description {
   color: #86878b;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
-.social-media-icons {
-  width: 60%;
+.social-media__icons-container {
+  width: 55%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 
-.social-media-icons * {
-  display: block;
-  max-width: 70px;
-  max-height: 70px;
-  margin-left: 2%;
+.social-media__icon {
+  width: 13%;
+  display: flex;
 }
 
-.sm-img:hover {
+.social-media__icon-img{
+  width: 100%;
+}
+
+.social-media__icon-img:hover {
   filter: brightness(70%);
 }
