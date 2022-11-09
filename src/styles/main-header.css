@@ -3,20 +3,19 @@
 }
 
 .main-header__container {
-  max-width: 1225px;
+  max-width: 76.5625rem;
 }
 
 .nav-container {
   display: flex;
-  height: 75px;
+  height: 4.68rem;
   align-items: center;
   justify-content: space-between;
 }
 
 .main-header__logo {
-  width: 87px;
-  height: 31px;
-  display: block;
+  width: 6.45rem;
+  height: 2.1rem;
   background: url("../icons/axit-logo.svg");
   background-size: cover;
 }
@@ -24,8 +23,8 @@
 .main-header__burger {
   display: none;
   position: relative;
-  width: 24px;
-  height: 18px;
+  width: 1.5rem;
+  height: 1.125rem;
   background: url("../icons/burger-icon.svg");
   margin-right: 5%;
 }
@@ -36,25 +35,27 @@
 
 .main-header-nav {
   display: flex;
-  min-width: 46%;
+  justify-content: space-between;
   height: 100%;
-  margin-right: 2%;
+
+  width: 48%;
 }
 
 .main-header-nav__item {
-  flex-grow: 1;
   color: #fff;
-  text-decoration: none;
-  font-family: var(--font-view2);
-  font-size: 14px;
+  flex-grow: 1;
   text-align: center;
-  padding: 30px;
+  text-decoration: none;
+  height: 100%;
+  font-family: var(--font-view2);
+  font-size: 0.875rem;
+  padding: 1.8rem;
 }
 
 .main-header-nav__item:hover {
   background-color: var(--main-orange);
 }
+
 .main-header-nav__item:active {
   background-color: var(--dark-orange);
-  text-transform: uppercase;
 }

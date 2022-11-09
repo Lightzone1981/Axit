@@ -1,6 +1,9 @@
+.section-header {
+  padding: 6.4rem 0 3.8rem 0;
+}
+
 .section-header__title {
   text-align: center;
-  margin-top: 112px;
 }
 
 .section-header__decoration-line {

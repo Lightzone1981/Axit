@@ -1,12 +1,11 @@
 @media (max-width: 767px) {
   /* styles for main-heder */
-
   .main-header-nav {
     transform: translateX(-100%);
     flex-direction: column;
     gap: 0;
     position: absolute;
-    top: 56px;
+    top: 3.5rem;
     left: 0;
     z-index: 5;
     background-color: #000;
@@ -34,17 +33,16 @@
   }
 
   .nav-container {
-    height: 56px;
+    height: 3.5rem;
   }
 
   .main-header__logo {
-    width: 65px;
-    height: 23px;
+    width: 4.06rem;
+    height: 1.4375rem;
     margin-left: 4%;
   }
 
   /* styles for social-media section */
-
   .social-media__container {
     flex-direction: column;
   }
@@ -59,25 +57,29 @@
     justify-content: space-between;
   }
 
-
   /* styles for tabs section */
-
   .tabs-frame__text-container {
     max-width: 100%;
   }
 
-  /* styles for awesome section */
+  /* styles for section header */
+  .section-header {
+    padding: 4rem 0 2rem 0;
+  }
 
-  .cards-awesome-container {
-    flex-wrap: wrap;
+  /* styles for awesome section */
+  .awesome__cards-container {
+    flex-direction: column;
+    padding-top: 0;
   }
 
   .card-awesome {
-    max-width: 100%;
+    width: 90%;
+    padding-top: 3rem;
   }
 
-  .section-header__title {
-    margin-top: 62px;
+  .card-awesome__title {
+    margin: 2rem;
   }
 
   /* styles for pricing section */
@@ -86,17 +88,20 @@
     padding-bottom: 0;
   }
 
-  .pricing-card-container {
-    flex-wrap: wrap;
+  .pricing__card-container {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1rem;
   }
 
   .pricing-card {
-    width: 100%;
-    padding-bottom: 26px;
+    width: 90%;
+
+    padding-bottom: 1.625rem;
   }
 
-  .pricing-card--up {
-    position: inherit;
+  .pricing-card:nth-child(2) {
+    position: static;
     box-shadow: none;
   }
 }

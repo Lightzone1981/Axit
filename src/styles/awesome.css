@@ -1,28 +1,20 @@
-.awesome-section {
+.awesome {
   background-color: #fff;
 }
 
-.cards-awesome-container {
+.awesome__cards-container {
   display: flex;
-  justify-content: space-evenly;
-  padding-bottom: 62px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 0;
 }
 
 .card-awesome {
-  flex-grow: 1;
-  max-width: 330px;
-  margin: 0 20px;
+  width: 32%;
+  margin: 0 1%;
   text-align: center;
 }
 
-.card-awesome__icon {
-  margin-top: 108px;
-}
-
 .card-awesome__title {
-  margin-top: 54px;
-}
-
-.card-awesome__description {
-  margin-top: 54px;
+  margin: 3.375rem;
 }
