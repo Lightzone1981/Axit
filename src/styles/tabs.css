@@ -1,90 +1,86 @@
-.tabs-section {
+.tabs {
   background-color: #fff;
+  padding: 6.25rem 0;
 }
 
-.tabs-navigation {
+.tabs__navigation {
   position: relative;
   top: 1px;
   z-index: 1;
   list-style-type: none;
-  margin-top: 100px;
   display: flex;
 }
 
-.tabs-navigation__item {
-  width: 28vw;
-  max-width: 200px;
-  height: 45px;
+.tabs__navigation-item {
+  width: 17%;
+  height: 2.81rem;
   font-family: var(--font-view2);
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #333333;
 }
 
-.tabs-navigation__button {
+.tabs__navigation-button {
   width: 100%;
   height: 100%;
   background-color: #fff;
   border-bottom: 1px solid #c6cbcd;
 }
 
-.tabs-navigation__button--active {
+.tabs__navigation-button--active {
   border: 1px solid #c6cbcd;
-  border-bottom: #fff;
-  border-radius: 5px 5px 0px 0px;
+  border-bottom: none;
+  border-radius: 0.31rem 0.31rem 0 0;
 }
 
-.tabs-navigation__button:hover {
+.tabs__navigation-button:hover {
   color: var(--main-orange);
   cursor: pointer;
 }
 
-.tabs-navigation__button--active:hover {
+.tabs__navigation-button--active:hover {
   color: #333333;
 }
 
-.tabs-frame {
+.tabs__frame {
+  border: 1px solid #000;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   border: 1px solid #c6cbcd;
 }
 
-.tabs-frame__text-container {
-  margin-left: 8%;
-  padding-right: 8%;
-  max-width: 50%;
+.tabs__frame-text-container {
+  padding: 5% 8%;
+  width: 50%;
 }
 
-.tabs-frame__image {
+.tabs__frame-image {
   flex-grow: 1;
-  min-height: 500px;
   background: url("../images/Liberty-monument.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.tabs-frame__title {
-  margin-top: 40px;
+.tabs__frame-title {
+  margin-bottom: 4.37rem;
 }
 
-.tabs-frame__description {
-  margin-top: 70px;
+.tabs__frame-description {
   font-family: var(--font-view1);
-  font-size: 18px;
+  font-size: 1.12rem;
   line-height: 1.2;
 }
 
-.tabs-frame__button {
+.tabs__frame-button {
   background-color: var(--main-orange);
   color: #fff;
   font-family: var(--font-view2);
-  font-size: 18px;
-  width: 270px;
-  height: 58px;
-  margin: 27px auto;
+  font-size: 1.5rem;
+  width: 90%;
+  height: 3.625rem;
+  margin: 1.68rem auto;
 }
 
-.tabs-frame__button:hover {
+.tabs__frame-button:hover {
   cursor: pointer;
   background-color: var(--dark-orange);
 }

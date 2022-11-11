@@ -45,6 +45,7 @@
   /* styles for social-media section */
   .social-media__container {
     flex-direction: column;
+    text-align: center;
   }
 
   .social-media__text-container {
@@ -58,10 +59,29 @@
   }
 
   /* styles for tabs section */
-  .tabs-frame__text-container {
-    max-width: 100%;
+
+  .tabs {
+    padding: 2rem 0 0 0;
   }
 
+  .tabs__navigation-item {
+    width: 25%;
+  }
+
+  .tabs__frame-text-container {
+    width: 100%;
+  }
+  .tabs__frame-title {
+    margin-bottom: 2rem;
+  }
+
+  .tabs__frame {
+    flex-direction: column;
+  }
+
+  .tabs__frame-image {
+    height: 80vw;
+  }
   /* styles for section header */
   .section-header {
     padding: 4rem 0 2rem 0;
