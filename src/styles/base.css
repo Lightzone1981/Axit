@@ -1,8 +1,13 @@
+html{
+	scroll-behavior: smooth;
+}
+
 body {
   background-color: #fff;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  
 }
 
 .wrapper {
