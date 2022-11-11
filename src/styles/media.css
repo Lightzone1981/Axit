@@ -43,6 +43,10 @@
   }
 
   /* styles for social-media section */
+  .social-media{
+	top: 3.5rem;
+  }
+
   .social-media__container {
     flex-direction: column;
     text-align: center;
@@ -61,7 +65,7 @@
   /* styles for tabs section */
 
   .tabs {
-    padding: 2rem 0 0 0;
+    padding: 5rem 0 0 0;
   }
 
   .tabs__navigation-item {
