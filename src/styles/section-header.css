@@ -4,6 +4,7 @@
 
 .section-header__title {
   text-align: center;
+  text-transform: uppercase;
 }
 
 .section-header__decoration-line {

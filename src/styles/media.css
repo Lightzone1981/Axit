@@ -43,6 +43,10 @@
   }
 
   /* styles for social-media section */
+  .social-media{
+	top: 3.5rem;
+  }
+
   .social-media__container {
     flex-direction: column;
     text-align: center;
@@ -61,7 +65,7 @@
   /* styles for tabs section */
 
   .tabs {
-    padding: 2rem 0 0 0;
+    padding: 5rem 0 0 0;
   }
 
   .tabs__navigation-item {
@@ -123,5 +127,44 @@
   .pricing-card:nth-child(2) {
     position: static;
     box-shadow: none;
+  }
+
+  /* styles for customers section */
+
+  .customers__cards-container {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1.5rem;
+  }
+  .customers__card {
+    width: 80%;
+    margin-bottom: 2rem;
+  }
+
+  .customers__comment {
+    padding: 2.5rem 2rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .customers__comment::after {
+    left: 40%;
+  }
+
+  .customers__info-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .customers__data {
+    margin: 0;
+  }
+  .customers__photo {
+    margin-bottom: 1rem;
+  }
+
+  .customers__name {
+    margin-bottom: 0.5rem;
   }
 }
