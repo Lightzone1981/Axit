@@ -56,8 +56,10 @@
     width: 100%;
     margin-bottom: 1.25rem;
   }
-
-  .social-media__icons-container {
+  .social-media__title {
+	margin-bottom: 0.8rem;
+ }
+  .social-media-block {
     width: 90%;
     justify-content: space-between;
   }
@@ -167,4 +169,12 @@
   .customers__name {
     margin-bottom: 0.5rem;
   }
+
+
+  /* styles for design section */
+
+  .section-header__button {
+	padding: 0.5rem 4rem;
+	}
+	
 }

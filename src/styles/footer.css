@@ -1,5 +1,29 @@
 .footer {
   flex-shrink: 0;
-  height: 164px;
+  height: 10.25rem;
+  padding: 2rem 0;
   background-color: #000;
+}
+
+.social-media-block--white{
+	width: 50%;
+	margin: 0 auto;
+}
+
+.social-media-block--white .social-media-block__icon {
+	width: 9%;
+ }
+
+.social-media-block--white .social-media-block__icon-img{
+	filter: brightness(0.9);
+}
+
+.social-media-block--white .social-media-block__icon-img:hover{
+	filter: brightness(0.5);
+}
+
+.footer__copyright{
+	color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+	margin: 1rem 0;
 }
