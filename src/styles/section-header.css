@@ -9,16 +9,16 @@
 
 .section-header__decoration-line {
   background-color: var(--main-orange);
-  width: 170px;
+  width: 10.625rem;
   height: 1px;
   margin: 0% auto;
-  margin-top: 62px;
+  margin-top: 3.875rem;
 }
 
 .section-header__subtitle {
   color: #86878b;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 2.5rem;
   margin: 0 auto;
-  width: 60%;
+  width: 80%;
 }

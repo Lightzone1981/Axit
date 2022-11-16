@@ -5,12 +5,14 @@
 @import "var.css";
 @import "base.css";
 @import "main-header.css";
+@import "main-banner.css";
 @import "section-header.css";
 @import "social-media.css";
 @import "tabs.css";
 @import "awesome.css";
 @import "pricing.css";
 @import "customers.css";
+@import "design.css";
 @import "footer.css";
 @import "media.css";
 

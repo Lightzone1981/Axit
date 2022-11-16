@@ -1,3 +1,12 @@
+@media (max-width: 870px) {
+  .free-trial {
+    width: 25rem;
+  }
+
+  .free-trial__title {
+    font-size: 1.3rem;
+  }
+}
 @media (max-width: 767px) {
   /* styles for main-heder */
   .main-header-nav {
@@ -42,9 +51,35 @@
     margin-left: 4%;
   }
 
+  /* styles for main-baner section */
+  .main-banner__info-container {
+    flex-direction: column;
+    padding: 8rem 0 3rem 0;
+  }
+
+  .main-banner__logo {
+    display: none;
+  }
+
+  .main-banner .section-header--white * {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .main-banner .section-header__button {
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+
+  .free-trial {
+    width: 100%;
+    align-self: center;
+  }
+
   /* styles for social-media section */
-  .social-media{
-	top: 3.5rem;
+  .social-media {
+    top: 3.5rem;
   }
 
   .social-media__container {
@@ -56,8 +91,10 @@
     width: 100%;
     margin-bottom: 1.25rem;
   }
-
-  .social-media__icons-container {
+  .social-media__title {
+    margin-bottom: 0.8rem;
+  }
+  .social-media-block {
     width: 90%;
     justify-content: space-between;
   }
@@ -166,5 +203,11 @@
 
   .customers__name {
     margin-bottom: 0.5rem;
+  }
+
+  /* styles for design section */
+
+  .section-header__button {
+    padding: 0.5rem 4rem;
   }
 }

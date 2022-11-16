@@ -1,0 +1,36 @@
+.design {
+	background: 
+	linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+	url('../images/stylish_background.jpg');
+	background-size: contain;
+}
+
+.section-header--white *{
+	color: #fff;
+}
+
+.section-header--white .section-header__decoration-line {
+	background-color: #fff;
+}
+
+.section-header__button {
+background-color: transparent;
+font-family: var(--font-view2);
+font-size: 1.125rem;
+padding: 0.5rem 7rem;
+border: 1px solid #fff;
+display: block;
+margin: 4.56rem auto 3rem auto;
+}
+
+.section-header__button:hover {
+	border-color: var(--main-orange);
+	color: var(--main-orange);
+	cursor: pointer;
+}
+
+.section-header__button:active {
+	background-color: var(--dark-orange);
+	border-color: var(--dark-orange);
+	color: #fff;
+}

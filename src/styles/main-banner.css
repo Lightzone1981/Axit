@@ -1,0 +1,108 @@
+.main-banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/main-banner.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.main-banner__info-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 15rem 0 13rem 0;
+}
+
+.main-banner__info {
+  padding-right: 2%;
+}
+
+.main-banner__logo {
+  width: 10.6rem;
+}
+
+.main-banner .section-header--white * {
+  text-align: left;
+  margin-left: 0;
+}
+
+.main-banner .section-header__button {
+  margin-bottom: 0;
+}
+
+.main-banner .section-header__title {
+  font-size: 3rem;
+}
+
+.main-banner .section-header--white {
+  padding: 2rem 0 0 0;
+}
+
+.free-trial {
+  width: 28rem;
+  flex-shrink: 0;
+  align-self: baseline;
+  background-color: #fff;
+  border-radius: 0.625rem;
+  overflow: hidden;
+}
+
+.free-trial__wrapper {
+  padding: 0 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.free-trial__title {
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: #333;
+  padding: 2rem 0 4rem 0;
+}
+
+.free-trial-title__selection {
+  background-color: transparent;
+  color: var(--main-orange);
+}
+
+.free-trial__name,
+.free-trial__email,
+.free-trial__password {
+  font-family: var(--font-view2);
+  font-size: 0.875rem;
+  color: #bdbdbd;
+  line-height: 2.5rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.free-trial__name:focus,
+.free-trial__email:focus,
+.free-trial__password:focus {
+  color: #333;
+}
+
+.free-trial__footer {
+  background-color: var(--main-orange);
+  padding: 1rem 0;
+  margin-top: 3rem;
+}
+
+.free-trial__button {
+  background-color: transparent;
+  color: #fff;
+  font-family: var(--font-view2);
+  font-size: 0.93rem;
+  display: block;
+  margin: 0 auto;
+}
+
+.free-trial__footer:hover {
+  cursor: pointer;
+  background-color: var(--dark-orange);
+}
+
+.free-trial__footer:active {
+  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.25);
+  background-color: var(--main-orange);
+}

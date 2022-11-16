@@ -38,6 +38,7 @@
 }
 
 .tabs__navigation-button--active:hover {
+  cursor: auto;
   color: #333333;
 }
 
@@ -49,8 +50,8 @@
 }
 
 .tabs__frame-text-container {
-  padding: 5% 8%;
-  width: 50%;
+  padding: 5% 3% 5% 8%;
+  width: 60%;
 }
 
 .tabs__frame-image {
@@ -84,3 +85,9 @@
   cursor: pointer;
   background-color: var(--dark-orange);
 }
+
+.tabs__frame-button:active {
+	background-color: var(--main-orange);
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 25%) ;
+ }
+ 
