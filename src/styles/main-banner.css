@@ -3,6 +3,7 @@
     url("../images/main-banner.jpg");
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 }
 
 .main-banner__info-container {
