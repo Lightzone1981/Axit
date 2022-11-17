@@ -48,3 +48,27 @@
 .customers__job-title {
   font-size: 0.875rem;
 }
+
+.slider_nav {
+  margin: 0 auto;
+  width: 30vw;
+  display: flex;
+  justify-content:space-between;
+  display: none;
+}
+
+.slider_link {
+  margin: 5% 5%;
+  border: 1px solid #86878B;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-radius: 50%;
+}
+
+.slider_link:hover {
+  background-color: #86878B;
+}
+
+.slider_link:active {
+  background-color: var(--main-orange);
+}

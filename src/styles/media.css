@@ -177,7 +177,15 @@
     width: 80%;
     margin-bottom: 2rem;
   }
+  
+  .customers__card {
+	display: none;
+ }
 
+ .customers__card:first-child {
+	display: block;
+ }
+ 
   .customers__comment {
     padding: 2.5rem 2rem;
     margin-bottom: 2.5rem;
@@ -204,6 +212,10 @@
   .customers__name {
     margin-bottom: 0.5rem;
   }
+
+  .slider_nav {
+	display:flex;
+ }
 
   /* styles for design section */
 
