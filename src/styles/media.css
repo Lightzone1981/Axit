@@ -77,6 +77,10 @@
     align-self: center;
   }
 
+  .free-trial__title {
+	font-size: 1rem;
+ }
+
   /* styles for social-media section */
   .social-media {
     top: 3.5rem;
@@ -177,15 +181,15 @@
     width: 80%;
     margin-bottom: 2rem;
   }
-  
-  .customers__card {
-	display: none;
- }
 
- .customers__card:first-child {
-	display: block;
- }
- 
+  .customers__card {
+    display: none;
+  }
+
+  .customers__card:first-child {
+    display: block;
+  }
+
   .customers__comment {
     padding: 2.5rem 2rem;
     margin-bottom: 2.5rem;
@@ -213,13 +217,30 @@
     margin-bottom: 0.5rem;
   }
 
-  .slider_nav {
-	display:flex;
- }
+  .slider-nav {
+    display: flex;
+  }
 
   /* styles for design section */
 
   .section-header__button {
     padding: 0.5rem 4rem;
+  }
+
+  /* styles for contact form */
+  .contact__body {
+    flex-direction: column;
+  }
+
+  .contact__valid {
+    margin-right: 0;
+  }
+
+  .contact__message {
+    height: 12rem;
+    margin-bottom: 0;
+  }
+  .contact__button {
+    width: 100%;
   }
 }
