@@ -49,24 +49,24 @@
   font-size: 0.875rem;
 }
 
-.slider_nav {
+.slider-nav {
   margin: 0 auto;
   width: 30vw;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   display: none;
 }
 
-.slider_link {
+.slider-nav__link {
   margin: 5% 5%;
-  border: 1px solid #86878B;
+  border: 1px solid #86878b;
   width: 0.625rem;
   height: 0.625rem;
   border-radius: 50%;
 }
 
-.slider_link:hover {
-  background-color: #86878B;
+.slider-nav__link:hover {
+  background-color: #86878b;
 }
 
 .slider_link:active {
