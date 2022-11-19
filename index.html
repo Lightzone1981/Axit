@@ -44,7 +44,7 @@
 							<button class="section-header__button">Download</button>
 						</div>
 					</div>
-					<form class="free-trial">
+					<form class="free-trial" name="trial-form" action="#">
 						<div class="free-trial__wrapper">
 							<header class="free-trial__header">
 								<h4 class="free-trial__title">
@@ -54,10 +54,10 @@
 								</h4>
 							</header>
 							<input class="free-trial__name" name='free-trial-name' type="text" placeholder="Name *" required />
-							<input class="free-trial__email" name='free-trial-email' type="email" placeholder="Email"
+							<input class="free-trial__email" name='free-trial-email' type="email" placeholder="Email *"
 								required />
 							<input class="free-trial__password" name='free-trial-password' type="password"
-								placeholder="Password" required />
+								placeholder="Password *" required />
 						</div>
 						<footer class="free-trial__footer">
 							<input class="free-trial__button" type="submit" value="Get started" />
@@ -365,7 +365,7 @@
 		</section>
 	</div>
 
-	<form class="contact" id="contact">
+	<form class="contact" id="contact" name="contact-form" action="#">
 		<div class="container">
 			<header class="contact__header">
 				<div class="section-header">
