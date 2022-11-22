@@ -37,7 +37,7 @@
   padding: 2rem 0 0 0;
 }
 
-.free-trial {
+.trial-form {
   width: 28rem;
   flex-shrink: 0;
   align-self: baseline;
@@ -46,13 +46,13 @@
   overflow: hidden;
 }
 
-.free-trial__wrapper {
+.trial-form__wrapper {
   padding: 0 3rem;
   display: flex;
   flex-direction: column;
 }
 
-.free-trial__title {
+.trial-form__title {
   margin: 0;
   text-align: center;
   text-transform: uppercase;
@@ -61,14 +61,14 @@
   padding: 2rem 0 4rem 0;
 }
 
-.free-trial-title__selection {
+.trial-form-title__selection {
   background-color: transparent;
   color: var(--main-orange);
 }
 
-.free-trial__name,
-.free-trial__email,
-.free-trial__password {
+.trial-form__name,
+.trial-form__email,
+.trial-form__password {
   font-family: var(--font-view2);
   font-size: 0.875rem;
   color: #777;
@@ -77,25 +77,25 @@
   border-bottom: 1px solid #bdbdbd;
 }
 
-.free-trial__name::placeholder,
-.free-trial__email::placeholder,
-.free-trial__password::placeholder {
+.trial-form__name::placeholder,
+.trial-form__email::placeholder,
+.trial-form__password::placeholder {
   color: #bdbdbd;
 }
 
-.free-trial__name:focus,
-.free-trial__email:focus,
-.free-trial__password:focus {
+.trial-form__name:focus,
+.trial-form__email:focus,
+.trial-form__password:focus {
   color: var(--main-orange);
   border-color: var(--main-orange);
 }
 
-.free-trial__footer {
+.trial-form__footer {
   margin-top: 3rem;
   display: flex;
 }
 
-.free-trial__button {
+.trial-form__button {
   background-color: var(--main-orange);
   flex-grow: 1;
   color: #fff;
@@ -106,12 +106,12 @@
   margin: 0 auto;
 }
 
-.free-trial__button:hover {
+.trial-form__button:hover {
   cursor: pointer;
   background-color: var(--dark-orange);
 }
 
-.free-trial__button:active {
+.trial-form__button:active {
   box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.25);
   background-color: var(--main-orange);
 }

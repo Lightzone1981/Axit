@@ -1,9 +1,9 @@
 @media (max-width: 870px) {
-  .free-trial {
+  .trial-form {
     width: 25rem;
   }
 
-  .free-trial__title {
+  .trial-form__title {
     font-size: 1.3rem;
   }
 }
@@ -72,12 +72,12 @@
     width: 100%;
   }
 
-  .free-trial {
+  .trial-form {
     width: 100%;
     align-self: center;
   }
 
-  .free-trial__title {
+  .trial-form__title {
 	font-size: 1rem;
  }
 
@@ -228,19 +228,19 @@
   }
 
   /* styles for contact form */
-  .contact__body {
+  .message-form__body {
     flex-direction: column;
   }
 
-  .contact__valid {
+  .message-form__valid {
     margin-right: 0;
   }
 
-  .contact__message {
+  .message-form__message {
     height: 12rem;
     margin-bottom: 0;
   }
-  .contact__button {
+  .message-form__button {
     width: 100%;
   }
 }

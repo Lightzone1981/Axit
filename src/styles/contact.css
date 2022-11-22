@@ -6,10 +6,10 @@
   font-weight: 700;
 }
 
-.contact__body {
+.message-form__body {
   display: flex;
 }
-.contact__valid {
+.message-form__valid {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
@@ -17,10 +17,10 @@
   padding: 0;
 }
 
-.contact__name,
-.contact__email,
-.contact__password,
-.contact__message {
+.message-form__name,
+.message-form__email,
+.message-form__password,
+.message-form__message {
   font-family: var(--font-view2);
   font-size: 0.875rem;
   color: #777;
@@ -29,33 +29,33 @@
   border-bottom: 1px solid #bdbdbd;
 }
 
-.contact__name::placeholder,
-.contact__email::placeholder,
-.contact__password::placeholder,
-.contact__message::placeholder {
+.message-form__name::placeholder,
+.message-form__email::placeholder,
+.message-form__password::placeholder,
+.message-form__message::placeholder {
   color: #bdbdbd;
 }
 
-.contact__name:focus,
-.contact__email:focus,
-.contact__password:focus,
-.contact__message:focus {
+.message-form__name:focus,
+.message-form__email:focus,
+.message-form__password:focus,
+.message-form__message:focus {
   color: var(--main-orange);
   border-color: var(--main-orange);
 }
 
-.contact__message {
+.message-form__message {
   flex-grow: 1;
   line-height: 1.25rem;
   resize: none;
 }
 
-.contact__footer {
+.message-form__footer {
   margin-top: 3rem;
   display: flex;
 }
 
-.contact__button {
+.message-form__button {
   background-color: var(--main-orange);
   width: 30%;
   color: #fff;
@@ -66,12 +66,12 @@
   margin: 0 auto;
 }
 
-.contact__button:hover {
+.message-form__button:hover {
   cursor: pointer;
   background-color: var(--dark-orange);
 }
 
-.contact__button:active {
+.message-form__button:active {
   box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.25);
   background-color: var(--main-orange);
 }
