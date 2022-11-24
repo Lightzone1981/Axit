@@ -27,17 +27,12 @@
     transform: translateX(0);
   }
 
-  .main-header__burger.active {
-    background: url("../icons/cross-icon.svg") center no-repeat;
-    background-size: 100%;
-  }
-
-  .main-header-nav__item {
+   .main-header-nav__item {
     text-align: center;
     padding: 8%;
   }
 
-  .main-header__burger {
+  .burger {
     display: block;
   }
 
