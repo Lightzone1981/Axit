@@ -43,10 +43,10 @@
 }
 
 .tabs__frame {
-  border: 1px solid #000;
   display: flex;
   justify-content: space-between;
   border: 1px solid #c6cbcd;
+  border-top-color: transparent;
 }
 
 .tabs__frame-text-container {
@@ -54,9 +54,21 @@
   width: 60%;
 }
 
-.tabs__frame-image {
+.tabs__frame-image1 {
   flex-grow: 1;
   background: url("../images/Liberty-monument.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.tabs__frame-image2 {
+  flex-grow: 1;
+  background: url("../images/NY-2.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.tabs__frame-image3 {
+  flex-grow: 1;
+  background: url("../images/NY3.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }

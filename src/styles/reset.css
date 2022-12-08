@@ -10,3 +10,15 @@
   margin: 0;
   box-sizing: border-box;
 }
+body{
+  color: black;
+}
+
+a {
+  color: inherit;
+}
+
+button{
+  color: black;
+}
+
